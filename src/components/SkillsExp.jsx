@@ -6,7 +6,7 @@ function SkillsExp() {
   const { ref, inView } = useInView({ triggerOnce: true });
 
   return (
-    <div className="bg-[url(./images/skills/experience-bg.webp)] font-lato bg-cover bg-center bg-no-repeat md:h-auto md:min-h-screen flex items-center justify-center md:justify-end px-4 sm:px-6 py-10">
+    <div className="bg-[url(/images/skills/experience-bg.webp)] font-lato bg-cover bg-center bg-no-repeat md:h-auto md:min-h-screen flex items-center justify-center md:justify-end px-4 sm:px-6 py-10">
       <div className="w-full md:w-[40%] shadow-2xl flex flex-col gap-4 bg-transparent backdrop-blur-xl md:mr-20 border border-gray-500 rounded-lg p-4 sm:p-6 md:p-8">
         <h1 className="text-white text-3xl sm:text-4xl md:text-6xl font-LibreFranklinMedium font-bold">
           Skill and Experience
