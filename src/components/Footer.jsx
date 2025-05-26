@@ -108,7 +108,7 @@ export default function Footer() {
 
             {/* Resources */}
             <div className="p-2 md:ml-16">
-              <h3 className="text-xl font-semibold mb-12">Resources</h3>
+              <h3 className="text-xl font-semibold mb-8">Resources</h3>
               <ul className="space-y-2 text-tertiary mb-4 text-md">
                 {resources.map((item, index) => (
                   <li
@@ -123,7 +123,7 @@ export default function Footer() {
 
             {/* Services */}
             <div className="p-2">
-              <h3 className="text-xl font-semibold mb-12">Services</h3>
+              <h3 className="text-xl font-semibold mb-8">Services</h3>
               <ul className="space-y-2 text-tertiary text-md">
                 {services.map((item, index) => (
                   <li
