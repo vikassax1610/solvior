@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "LibreFranklin-Regular";
+  src: url(/public/fonts/LibreFranklin-Regular.otf) format("opentype");
+}
+@font-face {
+  font-family: "Lato-Regular";
+  src: url(/public/fonts/Lato-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "LibreFranklin-Medium";
+  src: url(/public//fonts//LibreFranklin-Medium.ttf) format("truetype");
+}
+@import "tailwindcss";
+@theme{
+  --font-LibreFranklinRegular: "LibreFranklinRegular";
+  --font-LibreFranklinMedium: "LibreFranklinMedium";
+  --font-lato: "lato";
+  --color-primary: #051229;
+  --color-secondary: #0075FF;
+  --color-tertiary:#A9B0B8;
+}
